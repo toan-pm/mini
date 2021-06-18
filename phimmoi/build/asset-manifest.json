@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/phimmoi/static/css/main.1798e44b.chunk.css",
+    "main.js": "/phimmoi/static/js/main.3c59d9e4.chunk.js",
+    "main.js.map": "/phimmoi/static/js/main.3c59d9e4.chunk.js.map",
+    "runtime-main.js": "/phimmoi/static/js/runtime-main.618b1e0f.js",
+    "runtime-main.js.map": "/phimmoi/static/js/runtime-main.618b1e0f.js.map",
+    "static/js/2.faf971b0.chunk.js": "/phimmoi/static/js/2.faf971b0.chunk.js",
+    "static/js/2.faf971b0.chunk.js.map": "/phimmoi/static/js/2.faf971b0.chunk.js.map",
+    "index.html": "/phimmoi/index.html",
+    "precache-manifest.36de7256b7a2654b4b71669c5eb79ae9.js": "/phimmoi/precache-manifest.36de7256b7a2654b4b71669c5eb79ae9.js",
+    "service-worker.js": "/phimmoi/service-worker.js",
+    "static/css/main.1798e44b.chunk.css.map": "/phimmoi/static/css/main.1798e44b.chunk.css.map",
+    "static/media/reactMovie_logo.png": "/phimmoi/static/media/reactMovie_logo.08494abf.png"
+  }
+}
