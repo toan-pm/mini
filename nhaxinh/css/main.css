@@ -1,0 +1,315 @@
+@import url("https://fonts.googleapis.com/css?family=Mali:300i,400,700&display=swap&subset=vietnamese");
+:root {
+  --mainYellow: #f7c329;
+  --mainWhite: #fff;
+  --mainBlack: #071013;
+  --mainGrey: #9b9999;
+  --transGrey: rgba(248, 248, 248);
+  --mainBlue: #7fc2f4;
+  --myLightYellow: #fda;
+  --trueBlack: #000;
+  --mainGreen: #48c3af;
+  --mainRed: #b33f4a;
+  --trueBlue: rgb(17, 18, 49);
+  --mainOrange: rgb(233, 82, 45);
+}
+
+body {
+  color: var(--mainBlack);
+  background: var(--mainWhite);
+  font-family: "Mali", cursive;
+}
+
+/* Trang Chu */
+.navbar-toggler {
+  outline: none !important;
+  border: none;
+  font-size: 2.2rem;
+  color: var(--mainBlack) !important;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-weight: 700;
+  color: black !important;
+}
+
+.nav-active {
+  border-bottom: 0.1rem solid var(--trueBlue);
+}
+
+.navbar-icon {
+  font-size: 1.7rem;
+}
+
+.navbar-cart-icon {
+  color: var(--mainBlack);
+  position: relative;
+}
+
+.navbar-cart-icon:hover {
+  color: var(--mainGrey);
+}
+
+.cart-items {
+  color: var(--mainYellow);
+  font-weight: bold;
+  position: relative;
+  right: 6%;
+}
+
+/* banner */
+.banner {
+  min-height: calc(100vh - 0px);
+  background: rgba(253 ,253, 253, .8) url("../img/banner/banner2.jpg");
+    background-blend-mode: lighten;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.banner-text {
+  color: var(--mainBlack);
+  max-width: 680px;
+  font-weight: 700;
+  transition: 0.5s;
+}
+.banner-text:hover {
+  transform: scale(0.9);
+  transform: translateX(1%);
+}
+
+.btn-yellow {
+  background: var(--mainYellow);
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  columns: var(--mainBlack);
+}
+
+.btn-yellow:hover {
+  background: var(--mainBlack);
+  color: var(--mainYellow);
+}
+
+/* featured section */
+.featured-container {
+  background-color: var(--transGrey);
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.featured-container:hover {
+  background-color: var(--myLightYellow);
+  transform: scale(0.9);
+  transform: translateX(1%);
+}
+
+.featured-search-icon {
+  background: var(--mainYellow);
+  display: inline-block;
+  padding: 0.2rem 0.8rem;
+  border-radius: 5px 0px 0px 5px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  font-size: 1.2rem;
+  transform: translateX(110%);
+  transition: all 0.4s ease-in-out;
+}
+
+.featured-search-icon:hover {
+  background-color: var(--mainBlue);
+}
+
+.featured-container:hover .featured-search-icon {
+  transform: translateX(0%);
+}
+
+.featured-store-link {
+  background-color: var(--mainYellow);
+  color: var(--mainBlack);
+  padding: 0.2rem 1rem;
+  border-radius: 5px 0px 0px 5px;
+  box-shadow: 0 0 0 10px rgba(221, 156, 14, 0.15);
+  text-transform: capitalize;
+  position: absolute;
+  right: 0;
+  top: 70%;
+  transform: translateX(110%);
+  transition: all 0.3s ease-in-out;
+}
+
+.featured-container:hover .featured-store-link {
+  transform: translateX(0%);
+}
+
+.featured-store-link:hover {
+  background-color: var(--mainBlue);
+  text-decoration: none;
+}
+
+.old-price {
+  text-decoration: line-through;
+}
+
+/* Collection */
+.collection {
+  background-color: var(--transGrey);
+}
+
+.carousel-control-prev {
+  font-size: 2.5rem;
+  color: var(--mainYellow);
+  transform: translateX(-200%);
+}
+
+.carousel-control-next {
+  font-size: 2.5rem !important;
+  color: var(--mainYellow) !important;
+  transform: translateX(200%);
+}
+
+.red {
+  background-color: var(--mainRed) !important;
+  color: var(--mainWhite) !important;
+}
+
+.yellow {
+  background-color: var(--mainYellow) !important;
+}
+
+.red p {
+  color: var(--mainWhite) !important;
+}
+
+.green {
+  background-color: var(--mainGreen) !important;
+  color: var(--mainWhite);
+}
+
+.center-item-a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fit-image {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* jumbotron*/
+
+.jumbotron {
+  background-color: #fff;
+  margin-left: 50px;
+}
+
+.jumbotron h2 {
+  font-size: 4rem;
+}
+
+.jumbotron h2 span {
+  color: #ffc200;
+  transition: 0.2s;
+}
+
+.jumbotron p {
+  text-shadow: 0 0;
+  font-size: 1.4rem;
+  color: #666;
+  margin-bottom: 0;
+}
+
+/* text and background color*/
+.text-mark {
+  color: #ffc200;
+  transition: 0.5s;
+}
+
+.text-mark:hover {
+  background-color: var(--trueBlue);
+  color: var(--mainRed);
+  border-radius: 10px;
+  transform: scale(0.9);
+}
+
+.text-big {
+  font-size: 3.5rem;
+}
+
+.bgc-blue {
+  background-color: var(--trueBlue);
+  color: var(--mainWhite);
+  font-weight: 700;
+}
+
+.bgc-orange {
+  background-color: var(--mainOrange);
+  color: var(--mainWhite);
+  font-weight: bold;
+  transition: 0.6s;
+}
+
+.bgc-orange:hover {
+  background-color: transparent;
+  transform: translateY(-2%);
+}
+
+/* newletter */
+.bgc-sky {
+  background-color: rgb(232, 236, 242);
+}
+
+.bgc-white {
+  background-color: rgb(246, 246, 246);
+}
+
+.form-icon {
+  color: var(--mainBlue);
+}
+
+/* skill */
+.skills {
+  font-weight: 400;
+}
+
+.skill-icon {
+  color: var(--mainGreen);
+  font-size: 2.5rem;
+}
+
+.owl-carousel {
+  display: flex;
+  align-items: center;
+}
+
+.owl-carousel .item {
+  height: 250px;
+  width: 250px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px var(--mainWhite);
+  transition: 1s;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.owl-carousel .item img {
+  object-fit: fill;
+}
+.owl-carousel .item:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  border-top: 0.2rem solid var(--mainBlack);
+  word-spacing: 0.2rem;
+  font-weight: 700;
+}

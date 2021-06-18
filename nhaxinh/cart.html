@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Gio Hang</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/cart.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: rgba(255,255,255)">
+            <a href="index.html" class="navbar-brand">
+                <span class="bgc-blue rounded px-2 py-2">MinhToan</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar"
+                aria-expanded="false">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item mx-2 nav-active">
+                        <a href="index.html" class="nav-link">Trang chủ</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a href="#" class="nav-link">Sản Phẩm</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a href="#" class="nav-link">Chi Tiết</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a href="#" class="nav-link">Cửa Hàng</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="navbar-icons d-none d-lg-flex">
+                <div class="navbar-icon mx-2">
+                    <i class="fa fa-search"></i>
+                </div>
+                <a href="#" class="navbar-icon mx-2 navbar-cart-icon">
+                    <i class="fa fa-shopping-cart"></i>
+                </a>
+                <div class="cart-items">4</div>
+            </div>
+        </nav>
+        <div class="banner d-flex align-items-center pl-3 pl-lg-5 banner-cart">
+            <div class=" col-10 mx-auto banner-text text-center">
+                <h1 class="text-uppercase mb-0 display-2 pb-1 text-mark">Giỏ hàng</h1>
+                <h1 class="text-uppercase font-weight-bold">
+                    Hoàn tất đơn hàng và nhận ngay sau 2 giờ !
+                </h1>
+            </div>
+        </div>
+    </header>
+
+    <section class="totals py-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col text-center text-uppercase">
+                    <div class="row">
+                        <div class="col-10 mx-auto col-md-2">
+                            <p class="text-uppercase">
+                                Sản phẩm
+                            </p>
+                        </div>
+                        <div class="col-10 mx-auto col-md-4">
+                            <p class="text-uppercase">
+                                Tên sản phẩm
+                            </p>
+                        </div>
+                        <div class="col-10 mx-auto col-md-2">
+                            <p class="text-uppercase">
+                                Đơn giá
+                            </p>
+                        </div>
+                        <div class="col-10 mx-auto col-md-2">
+                            <p class="text-uppercase">
+                                Số lượng
+                            </p>
+                        </div>
+                        <div class="col-10 mx-auto col-md-2">
+                            <p class="text-uppercase">
+                                Tổng tiền
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row my-3 align-items-center">
+                        <div class="col-10 mx-auto col-md-2">
+                            <img src="img/img-products/product-1.png" alt="product" class="img-fluid">
+                        </div>
+
+                        <div class="col-10 mx-auto col-md-4">
+                            <p>Ghế da cao cấp màu vàng</p>
+                        </div>
+
+                        <div class="col-10 mx-auto col-md-2">
+                            <p>1.500.000đ</p>
+                        </div>
+
+                        <div class="col-10 mx-auto col-md-2">
+                            <div class="d-flex justify-content-center align-items-center">
+                                <span class="btn btn-outline-dark mx-1">-</span>
+                                <span class="btn btn-outline-dark mx-1">2</span>
+                                <span class="btn btn-outline-dark mx-1">+</span>
+                            </div>
+                        </div>
+
+                        <div class="col-10 mx-auto col-md-2">
+                            <p>1.500.000 đ</p>
+                        </div>
+                    </div>
+
+
+                    <div class="row my-3 align-items-center">
+                        <div class="col-10 mx-auto col-md-2">
+                            <img src="img/img-products/product-2.png" alt="product" class="img-fluid">
+                        </div>
+
+                        <div class="col-10 mx-auto col-md-4">
+                            <p>Ghế da cao cấp đen lịch lãm</p>
+                        </div>
+
+                        <div class="col-10 mx-auto col-md-2">
+                            <p>1.500.000đ</p>
+                        </div>
+
+                        <div class="col-10 mx-auto col-md-2">
+                            <div class="d-flex justify-content-center align-items-center">
+                                <span class="btn btn-outline-dark mx-1">-</span>
+                                <span class="btn btn-outline-dark mx-1">2</span>
+                                <span class="btn btn-outline-dark mx-1">+</span>
+                            </div>
+                        </div>
+
+                        <div class="col-10 mx-auto col-md-2">
+                            <p>1.500.000 đ</p>
+                        </div>
+                    </div>
+
+                    <div class="row my-3 align-items-center">
+                        <div class="col-10 mx-auto col-md-2">
+                            <img src="img/img-products/product-4.png" alt="product" class="img-fluid">
+                        </div>
+
+                        <div class="col-10 mx-auto col-md-4">
+                            <p>Ghế da cao cấp millan</p>
+                        </div>
+
+                        <div class="col-10 mx-auto col-md-2">
+                            <p>1.500.000đ</p>
+                        </div>
+
+                        <div class="col-10 mx-auto col-md-2">
+                            <div class="d-flex justify-content-center align-items-center">
+                                <span class="btn btn-outline-dark mx-1">-</span>
+                                <span class="btn btn-outline-dark mx-1">2</span>
+                                <span class="btn btn-outline-dark mx-1">+</span>
+                            </div>
+                        </div>
+
+                        <div class="col-10 mx-auto col-md-2">
+                            <p>1.500.000 đ</p>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="row">
+                        <div class="col col-sm-6 mx-auto d-flex justify-content-center flex-wrap">
+                            <a href="index.html" class="btn btn-primary text-white text-uppercase">Tiếp tục mua sắp</a>
+                            <a href="index.html" class="btn btn-success text-white ml-3 text-uppercase">Thanh toán ngay</a>
+                        </div>
+                    </div>
+
+                    <div class="row my-3">
+                        <div class="col mx-auto my-3 col-sm-8 col-md-6 col-lg-4">
+                          <div class="card card-body bgc-white text-uppercase">
+                            <div class="card-title"><h6>giỏ hàng</h6></div>
+                            <div class="row">
+                             
+                              <div class="col-6">tạm tính</div>
+                              <div class="col-6">4.500.000đ</div>
+                    
+                              <div class="col-6">phí giao hàng</div>
+                              <div class="col-6">29.000đ</div>
+                        
+                              <div class="col-6 my-2">thành tiền</div>
+                              <div class="col-6 my-2 text-danger">4.529.000đ</div>
+                  
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bgc-white rounded pt-3">
+        <div class="text-center pt-2">
+            <h1 class="text-uppercase text-mark text-big text-mark font-weight-bold animated infinite flash delay-2s">
+            Sản phẩm gợi ý cho bạn!</h1>
+        </div>
+        <div class="owl-carousel owl-theme text-center pb-2">
+                <div class="item">
+                        <img src="img/img-products/product-7.png" alt="product">
+                    </div>
+                    <div class="item">
+                        <img src="img/img-products/product-8.png" alt="product">
+                    </div>
+                    <div class="item">
+                        <img src="img/img-products/product-9.png" alt="product">
+                    </div>
+                    <div class="item">
+                        <img src="img/img-products/product-10.png" alt="product">
+                    </div>
+                    <div class="item">
+                        <img src="img/img-products/product-11.png" alt="product">
+        
+                    </div>
+                    <div class="item">
+                        <img src="img/img-products/product-12.png" alt="product">
+                    </div>
+                    <div class="item">
+                        <img src="img/img-products/product-13.png" alt="product">
+                    </div>
+                    <div class="item">
+                        <img src="img/img-products/product-14.png" alt="product">
+                    </div>
+                    <div class="item">
+                        <img src="img/img-products/product-15.png" alt="product">
+                    </div>
+                </div>
+    </section>
+
+
+    <section class="skills bgc-blue py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-4 my-3 d-flex">
+                    <div class="skill-icon mr-3">
+                        <i class="fa fa-truck"></i>
+                    </div>
+                    <div class="skill-text">
+                        <h3 class="text-uppercase">
+                            Giao hàng 2h
+                        </h3>
+                        <p class="text-muted text-capitalize">Giao hàng thần tốc trong 2h trong nội thành thành phố Hồ
+                            Chí Minh và Hà Nội.</p>
+                    </div>
+
+
+                </div>
+                <div class="col-md-6 col-lg-4 my-3 d-flex">
+                    <div class="skill-icon mr-3">
+                        <i class="fa fa-truck"></i>
+                    </div>
+                    <div class="skill-text">
+                        <h3 class="text-uppercase">
+                            Giá tốt nhất
+                        </h3>
+                        <p class="text-muted text-capitalize">Hàng ngàn sản phẩm ưu đãi đang chờ bạn khám phá. Tự hào
+                            giá tốt nhất thị trường</p>
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-4 my-3 d-flex">
+                    <div class="skill-icon mr-3">
+                        <i class="fa fa-truck"></i>
+                    </div>
+                    <div class="skill-text">
+                        <h3 class="text-uppercase">
+                            Được kiểm định
+                        </h3>
+                        <p class="text-muted text-capitalize">Cam kết hàng chính hãng được phân phối bởi các công ty
+                            hàng đầu. Hoàn tiền 111% nếu phát hiện hàng giả</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="container-fluid py-3 bgc-blue text-center">
+                <r class="row">
+                    <div class="col-10 mx-auto">
+                        <h4>@Phạm Minh Toàn - 2019</h4>
+                    </div>
+                </r>
+            </div>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+        </script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <script src="js/app.js"></script>
+</body>
+
+</html>

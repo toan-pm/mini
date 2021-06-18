@@ -1,0 +1,16 @@
+.banner-cart{
+    min-height: calc(100vh - 0px);
+    background: rgba(253 ,253, 253, .8) url("../img/banner/banner2.jpg");
+    background-blend-mode: lighten;
+}
+
+.banner-text {
+    color: var(--mainBlack);
+    max-width: 680px;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+.totals img {
+    max-height: 100px;
+}

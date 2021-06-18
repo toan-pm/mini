@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/caro/static/css/main.b4f4f821.chunk.css",
+    "main.js": "/caro/static/js/main.95394c35.chunk.js",
+    "main.js.map": "/caro/static/js/main.95394c35.chunk.js.map",
+    "runtime~main.js": "/caro/static/js/runtime~main.bea84211.js",
+    "runtime~main.js.map": "/caro/static/js/runtime~main.bea84211.js.map",
+    "static/js/2.1f1beafd.chunk.js": "/caro/static/js/2.1f1beafd.chunk.js",
+    "static/js/2.1f1beafd.chunk.js.map": "/caro/static/js/2.1f1beafd.chunk.js.map",
+    "index.html": "/caro/index.html",
+    "precache-manifest.660a78e574c5a1903fba7c22738398a9.js": "/caro/precache-manifest.660a78e574c5a1903fba7c22738398a9.js",
+    "service-worker.js": "/caro/service-worker.js",
+    "static/css/main.b4f4f821.chunk.css.map": "/caro/static/css/main.b4f4f821.chunk.css.map"
+  }
+}
